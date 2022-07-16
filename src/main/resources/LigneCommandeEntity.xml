@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.example.demo7.e2.LigneCommandeEntity">
+        <table name="ligne_commande" schema="mi5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="idCommandeId">
+                <column name="id_commande_id"/>
+            </basic>
+            <basic name="quantite">
+                <column name="quantite"/>
+            </basic>
+            <basic name="prix">
+                <column name="prix"/>
+            </basic>
+            <basic name="produitId">
+                <column name="produit_id"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.example.demo7.e2.ProduitEntity">
+        <table name="produit" schema="mi5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="categorieId">
+                <column name="categorie_id"/>
+            </basic>
+            <basic name="libelle">
+                <column name="libelle"/>
+            </basic>
+            <basic name="texte">
+                <column name="texte"/>
+            </basic>
+            <basic name="prix">
+                <column name="prix"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

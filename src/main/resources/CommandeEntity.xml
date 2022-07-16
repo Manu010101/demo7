@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.example.demo7.e2.CommandeEntity">
+        <table name="commande" schema="mi5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="dateCommande">
+                <column name="date_commande"/>
+            </basic>
+            <basic name="statut">
+                <column name="statut"/>
+            </basic>
+            <basic name="userId">
+                <column name="user_id"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

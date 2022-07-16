@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.example.demo7.e2.CategorieEntity">
+        <table name="categorie" schema="mi5" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="libelle">
+                <column name="libelle"/>
+            </basic>
+            <basic name="texte">
+                <column name="texte"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
