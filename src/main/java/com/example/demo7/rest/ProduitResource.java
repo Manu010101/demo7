@@ -1,6 +1,6 @@
-package com.example.demo7;
+package com.example.demo7.rest;
 
-import com.example.demo7.e2.ProduitDAO;
+import com.example.demo7.e2.DAO.ProduitDAO;
 import com.example.demo7.e2.ProduitEntity;
 
 import javax.ws.rs.*;

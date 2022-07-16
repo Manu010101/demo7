@@ -1,4 +1,4 @@
-package com.example.demo7;
+package com.example.demo7.rest;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
